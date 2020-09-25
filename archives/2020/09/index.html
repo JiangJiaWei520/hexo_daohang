@@ -3551,7 +3551,7 @@ function createParticule(e, t) {
     return a.x = e,
     a.y = t,
     a.color = colors[anime.random(0, colors.length - 1)],
-    a.radius = anime.random(16, 32),
+    a.radius = anime.random(8, 16),
     a.endPos = setParticuleDirection(a),
     a.draw = function() {
         ctx.beginPath(),
@@ -3603,7 +3603,7 @@ function animateParticules(e, t) {
         update: renderParticule
     }).add({
         targets: a,
-        radius: anime.random(80, 160),
+        radius: anime.random(40, 80),
         lineWidth: 0,
         alpha: {
             value: 0,
