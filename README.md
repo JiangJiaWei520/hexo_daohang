@@ -164,9 +164,11 @@ devTools:
 
 
 
-6、导航网站内容字典配置在\themes\webstack下\_config.yml中，具体内容在\source\_data
+6、顶部配置在\themes\webstack\layout\index.ejs
 
-7、关于本站内容配置在\themes\webstack下\_config.yml中的aboutPage里面
+7、导航网站内容字典配置在\themes\webstack下\_config.yml中，具体内容在\source\_data
+
+8、关于本站内容配置在\themes\webstack下\_config.yml中的aboutPage里面
 
 
 
