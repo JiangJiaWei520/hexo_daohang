@@ -1,7 +1,7 @@
 - # 我的网址导航
 
 
-我的个人博客：<https://dh.jiang7zzz.xyz>。
+我的个人博客：<https://dh.jiangjiawei.xyz>。
 
 本导航是使用hexo搭建，使用中。
 
@@ -107,7 +107,7 @@ npm install hexo-deployer-git --save
 ```
 deploy:
    type: git
-   repo: git@github.com:JiangJiaWei520/hexo_daohang.git
+   repo: git@github.com:jiangjiawei520/hexo_daohang.git
    branch: master
 ```
 
@@ -164,7 +164,9 @@ devTools:
 
 
 
-6、关于本站内容配置在\themes\webstack下\_config.yml中的aboutPage里面
+6、导航网站内容字典配置在\themes\webstack下\_config.yml中，具体内容在\source\_data
+
+7、关于本站内容配置在\themes\webstack下\_config.yml中的aboutPage里面
 
 
 
@@ -306,4 +308,3 @@ hexo clean
   int_minute = "0" + int_minute;
   }
   ```
-  
